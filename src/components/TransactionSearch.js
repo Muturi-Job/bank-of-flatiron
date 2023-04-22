@@ -3,8 +3,8 @@ function TransactionSearch ({transactions, setFilteredTransactions}) {
     const [searchQuery, setSearchQuery] = useState('');
     const handleSearch = e => {
         setSearchQuery(e.target.value);
-    const filteredTransactions =transactions.filter(item => item.description);
-    setFilteredTransactions(filteredTransactions);
+    const filtered =transactions.filter(item => item.description);
+    setFilteredTransactions(filtered);
     };
 
     return (
