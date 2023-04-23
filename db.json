@@ -1,0 +1,32 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "date": "2019-12-01",
+      "description": "Paycheck from Bob's Burgers",
+      "category": "Income",
+      "amount": 1000
+    },
+    {
+      "id": 2,
+      "date": "2019-12-02",
+      "description": "Rent payment",
+      "category": "Housing",
+      "amount": -500
+    },
+    {
+      "id": 3,
+      "date": "2019-12-03",
+      "description": "Grocery shopping",
+      "category": "Food",
+      "amount": -100
+    },
+    {
+      "date": "2021-12-22",
+      "description": "Fuel",
+      "category": "Expenses",
+      "amount": "13000",
+      "id": 4
+    }
+  ]
+}

@@ -1,16 +1,20 @@
 import React, {useState, useEffect} from "react";
 
 function TransactionForm () {
+  
     const [formData, setFormData] = useState({
+        
         date: "",
         description: "",
-        category: "",
+        category: '',
         amount: 0,
     });
+    console.log(formData)
 
     const handleInput = e => {
-        const { name, value} =e.target;
-        setFormData({...formData, [name]: value });
+        
+        const { id, value} =e.target;
+        setFormData({...formData, [id]: value });
     };
     const handleSubmit = e => {
         e.preventDefault();

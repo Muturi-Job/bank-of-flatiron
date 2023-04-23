@@ -8,7 +8,7 @@ function App() {
   return(
     <div>
       <TransactionForm />
-      <TransactionSearch transactions={transactions} setFilteredTransactions={setFilteredTransactions} />
+      <TransactionSearch  setFilteredTransactions={setFilteredTransactions} />
       <TransactionTable />    
     </div>
   )
