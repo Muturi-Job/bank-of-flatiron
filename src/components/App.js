@@ -7,8 +7,8 @@ function App() {
   const [filteredTransactions, setFilteredTransactions] =useState([]);
   return(
     <div>
-      <TransactionForm />
       <TransactionSearch  setFilteredTransactions={setFilteredTransactions} />
+      <TransactionForm />
       <TransactionTable />    
     </div>
   )

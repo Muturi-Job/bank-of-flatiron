@@ -32,4 +32,5 @@ function TransactionTable () {
       </table>
     );
 }
+
  export default TransactionTable;

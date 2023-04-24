@@ -33,11 +33,11 @@ function TransactionForm () {
             <input type="date" id="date" value={formData.date} onChange={handleInput} />
             <label>Description: </label>
             <input type="text" id="description" value={formData.description} onChange={handleInput} />
-            <label>Category:</label>
+            <label>Category: </label>
             <input type='text' id="category" value={formData.category} onChange={handleInput} />
-            <label>Amount:</label>
+            <label>Amount: </label>
             <input type="number" id="amount" value={formData.amount} onChange={handleInput} />
-            <button type="submit">Add Transaction</button>
+            <button type="submit" id="addTransaction">Add Transaction</button>
         </form>
     );
 }

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import TransactionTable from "./TransactionTable";
+
 
 function TransactionSearch ({transactions, setFilteredTransactions}) {
     const [searchQuery, setSearchQuery] = useState('');
@@ -14,7 +14,7 @@ function TransactionSearch ({transactions, setFilteredTransactions}) {
       };
 
     return (
-        <input type="text" placeholder="Search" value={searchQuery} onChange={handleSearch} />
+        <input class= "searchBar" type="text" placeholder="Search" value={searchQuery} onChange={handleSearch} />
     );
 }
 export default TransactionSearch;
